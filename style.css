@@ -1,0 +1,122 @@
+    <style>
+
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .container{
+            height: 1000px;
+            background-color: #f907fc;
+background-image: linear-gradient(315deg, #f907fc 0%, #05d6d9 74%);
+        }
+  
+        .time{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-around;
+        }
+
+        h1{
+            display: flex;
+            justify-content: center;
+            font-size: 70px;
+            font-family:serif;
+            margin-left:180px;
+            animation: tilt 6s ease-in-out infinite;
+
+        }
+        option{
+            border-radius: 50px;
+        }
+
+        select{
+            border: 2px solid black;
+            font-size: 18px;
+            margin-left: 30px;
+            margin-right: 50px;
+            margin-top: 40px;           
+            font-size: 40px;
+            cursor: pointer;
+            background-color:rgb(206, 172, 247)
+        }
+
+        select:hover{
+            background-color: #eb85ed;
+        }
+
+        .setalarm{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            border: 2px solid black;
+            height: 60px;
+            width: 320px;
+            margin-left: 600px;
+            font-size: 50px;
+            border-radius: 20px;
+            cursor: pointer;
+            background-color: rgb(124, 237, 243);
+
+        }
+
+        .setalarm:hover{
+            background-color: rgb(206, 172, 247);
+        }
+
+        .current{
+            height: 25px;
+            font: 15px;
+            font-size: 100px; 
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            height: 70px;
+            width: fit-content;
+            margin-left: 520px;
+        }
+
+        i{
+            font-size: 200px;
+            margin-left: 660px;
+            border-radius: 50%;
+            margin-top: 35px;
+        }
+        .select{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            margin-left: 70px;
+
+        }
+
+        img{
+            height: 300px;
+            width: 350px;
+            border-radius: 50px;
+            margin-left: 585px;
+            padding-top: 10px;
+    
+        }
+
+        @keyframes tilt {
+  0% {
+    transform: rotate(5deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+    </style>
